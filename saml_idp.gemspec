@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name = %q{saml_idp}
   s.version = SamlIdp::VERSION
   s.platform = Gem::Platform::RUBY
-  s.authors = ["Jon Phenow"]
-  s.email = 'jon.phenow@sportngin.com'
-  s.homepage = 'https://github.com/saml-idp/saml_idp'
+  s.authors = ["Jon Phenow", "Florent Lelong"]
+  s.email = 'florent.lelong@domoscio.com'
+  s.homepage = 'https://github.com/fearcraftor/saml_idp'
   s.summary = 'SAML Indentity Provider for Ruby'
-  s.description = 'SAML IdP (Identity Provider) Library for Ruby'
+  s.description = 'SAML IdP (Identity Provider) Library for Ruby edited to support DSA signed IdP Certificates'
   s.date = Time.now.utc.strftime("%Y-%m-%d")
   s.files = Dir['app/**/*', 'lib/**/*', 'LICENSE', 'README.md', 'Gemfile', 'saml_idp.gemspec']
   s.required_ruby_version = '>= 2.2'
